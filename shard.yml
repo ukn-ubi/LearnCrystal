@@ -2,7 +2,12 @@ name: learn-crystal
 version: 0.1.0
 
 authors:
-  - your-name-here <your-email-here>
+  - Simon Harms <simon@phillipharms.com>
+
+dependencies:
+  emoji:
+    github: veelenga/emoji.cr
+    branch: master
 
 targets:
   learn-crystal:

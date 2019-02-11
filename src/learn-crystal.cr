@@ -1,4 +1,5 @@
-# TODO: Write documentation for `Learn::Crystal`
+require "emoji"
+
 module LearnCrystal
   class URL
     def initialize(@url : String) end
@@ -9,5 +10,11 @@ module LearnCrystal
       backward = @url.split(".").reverse().join(".")
       return backward
     end
+    def onehundred
+      puts "#{self.reverse} #{Emoji.emojize ":100:"}"
+    end
   end
 end
+
+messages = LearnCrystal::URL.new("messages.android.com")
+messages.onehundred
