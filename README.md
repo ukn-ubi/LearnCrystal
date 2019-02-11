@@ -3,11 +3,11 @@
 An experiment of what I can do with Crystal. Currently featuring a URL reverser for changing something like "python.org" into "org.python" (AKA for Java usage).
 
 ## Usage
-
-	messages = LearnCrystal::URL.new "messages.android.com"
-	puts messages.r_url
-	puts messages.reverse
-
+```crystal
+messages = LearnCrystal::URL.new "messages.android.com"
+puts messages.r_url
+puts messages.reverse
+```
 ## Contributing
 
 1. Fork it (<https://github.com/xikuuky/learn-crystal/fork>)
